@@ -1,5 +1,3 @@
-# machine-learning-A1
-
 # COSC 2673 Machine Learning
 
 # Assignment 1
