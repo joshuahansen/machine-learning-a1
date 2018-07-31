@@ -7,10 +7,11 @@
 # Introductory Machine Learning
 
 ### Learning outcomes:
-  * Develop familiarity with solving a machine learning task on a real dataset
-  * Practice loading and analysing the data
-  * Practice setting up evaluation framework to compare different approaches
-  * Develop written communication skills to describe approach taken, explaining the reasoning for it and present results to justify the choices.
+* Develop familiarity with solving a machine learning task on a real dataset
+* Practice loading and analysing the data
+* Practice setting up evaluation framework to compare different approaches
+* Develop written communication skills to describe approach taken,  
+  explaining the reasoning for it and present results to justify the choices.
 
 ### Introduction
 
@@ -36,15 +37,15 @@ appropriate to predict the death rates.
 
 The data is available as part of the assignment download (see Canvas). We have cleaned it up for  
 you, such that all the attributes/features are integers or floats, and missing values has been estimated  
-and filled in. There are the following files:  
-   * train.csv, contains the training dataset. Use this for both training your Kaggle submission and  
-	 for your own exploration and evaluation of which approach you think is “best” for this prediction task.
-   * test.csv, containts the testing dataset for the Kaggle competition. It has all the independent  
-	 features but not the dependent one (TARGET_deathRate). For Kaggle, you predict the  
-	 values for the unknown TARGET_deathRate and submit them. There will be more details  
-	 about this within the Kaggle competition page. For your own evaluation etc, this file may  
-	 be useful for exploring the features.
-   * The file metadata.csv contains some brief description of each of the fields.
+and filled in. There are the following files:
+
+* train.csv, contains the training dataset. Use this for both training your Kaggle submission and for  
+  your own exploration and evaluation of which approach you think is “best” for this prediction task.
+* test.csv, containts the testing dataset for the Kaggle competition. It has all the independent features  
+  but not the dependent one (TARGET_deathRate). For Kaggle, you predict the values for the unknown  
+  TARGET_deathRate and submit them. There will be more details about this within the Kaggle competition page.  
+  For your own evaluation etc, this file may be useful for exploring the features.
+* The file metadata.csv contains some brief description of each of the fields.
    
 The original data is from https://data.world/nrippner/ols-regression-challenge, and the data we  
 provided is based on this, with some perturbation. Online, there are one or two scripts and kernels  
@@ -88,11 +89,12 @@ on maximising a single performance metric (i.e., the Kaggle in-class).
 
 ### Getting Started
 
-To help you get started, we suggest the following:  
-   * Load dataset into your Jupyter or your favourite Python IDE
-   * Do some preliminary data exploration, to understand it better (this will help you later on  
-	 with trying to figure which regression approach is ideal and how to improve it)
-   * Setup your data into training and testing datasets
-   * Select the basic linear regression algorithm and train it then evaluate it
-   * Analyse the results and see what is going on (to help you determine what needs to be  
-	 changed to improve the regression model)
+To help you get started, we suggest the following:
+
+* Load dataset into your Jupyter or your favourite Python IDE
+* Do some preliminary data exploration, to understand it better (this will help you later on with  
+  trying to figure which regression approach is ideal and how to improve it)
+* Setup your data into training and testing datasets
+* Select the basic linear regression algorithm and train it then evaluate it
+* Analyse the results and see what is going on (to help you determine what needs to be changed  
+  to improve the regression model)
